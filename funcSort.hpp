@@ -68,11 +68,7 @@ nodeSV* SortedMerge(nodeSV* a, nodeSV* b)
     return (result);
 }
  
-/* UTILITY FUNCTIONS */
-/* Split the nodes of the given list into front and back halves,
-    and return the two lists using the reference parameters.
-    If the length is odd, the extra node should go in the front list.
-    Uses the fast/slow pointer strategy. */
+
 void FrontBackSplit(nodeSV* source, nodeSV** frontRef, nodeSV** backRef)
 {
     nodeSV* fast;
